@@ -18,7 +18,7 @@ public class MathUtilTest {
         long expected = 1;
         long actual = MathUtil.getFactorial(n);
         
-        assertEquals(2,MathUtil.getFactorial(1));
+        assertEquals(1,MathUtil.getFactorial(1));
         
     }
 }
